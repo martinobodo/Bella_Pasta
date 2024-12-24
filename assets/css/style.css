@@ -52,11 +52,15 @@ header nav ul li a:hover {
 /* Main Section */
 main {
     padding: 20px;
-    background-color: #fff;
     margin: 20px auto;
     max-width: 800px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
 }
 
 /* Footer Section */
@@ -122,3 +126,9 @@ footer p {
 .menu-toggle:active {
     transform: scale(0.95); /* Slightly shrink the button on click for feedback */
 }
+
+audio {
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+  }

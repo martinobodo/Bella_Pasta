@@ -12,12 +12,20 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
-  background-color: #f9f9f9; /* Optional: light background color */
+  
 }
 
 audio {
   
   justify-content: center;
   align-items: center;
+  
+}
+
+h2 {
+  
+  
+  background-color: hsl(0, 0%, 0%); /* dark background color */
+  
   
 }

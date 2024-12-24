@@ -13,3 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
         menuToggle.classList.toggle("open");
     });
 });
+
+  // Wait for the page to load
+  window.addEventListener('DOMContentLoaded', () => {
+    // Select the audio element
+    const audio = document.querySelector('.audio');
+
+    // Play the audio automatically
+    audio.play().catch(error => {
+      console.error('Audio playback failed:', error);
+    });
+  });

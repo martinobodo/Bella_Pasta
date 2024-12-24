@@ -1,17 +1,23 @@
+audio-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure it spans the width of the parent */
+  height: auto; /* Adjust as needed */
+  text-align: center; /* Optional: center-align text */
+}
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: #f9f9f9; /* Optional: light background color */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Optional: light background color */
+}
 
-audio-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Ensure it spans the width of the parent */
-    height: auto; /* Adjust as needed */
-    text-align: center; /* Optional: center-align text */
+audio {
+  
+  justify-content: center;
+  align-items: center;
+  
 }

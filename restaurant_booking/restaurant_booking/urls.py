@@ -20,3 +20,14 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+from django.contrib import admin
+from django.urls import path
+from booking import views  # Import views from the correct app
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.home, name='home'),  # Example home view
+    path('make-booking/', views.make_booking, name='make_booking'),
+    path('view-bookings/', views.view_bookings, name='view_bookings'),
+]
